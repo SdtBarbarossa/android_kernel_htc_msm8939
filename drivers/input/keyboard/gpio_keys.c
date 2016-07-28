@@ -29,15 +29,12 @@
 #include <linux/of_platform.h>
 #include <linux/of_gpio.h>
 #include <linux/spinlock.h>
-<<<<<<< HEAD
 #include <linux/pinctrl/consumer.h>
-=======
 #include <linux/wakelock.h>
 
 #ifdef CONFIG_TOUCHSCREEN_SYNAPTICS_SWEEP2WAKE
 #include <linux/synaptics_i2c_rmi.h>
 #endif
->>>>>>> e5340bc... synaptics sweep2wake
 
 struct gpio_button_data {
 	const struct gpio_keys_button *button;
